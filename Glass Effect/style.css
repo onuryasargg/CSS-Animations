@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap");
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@
     left:0;
     height: 100%;
     width: 100%;
-    background: rgba((255), 255, 255, 0.174);
+    background: rgba(255, 255, 255, 0.174);
 }
 .content{
     border-radius: 10px;
@@ -37,7 +38,7 @@
 }
 .content header{
     color:white;
-    font: size 33px;
+    font-size: 33px;
     font-weight: 600;
     margin: 0 0 35px 0;
     font-family: "Montserrat", sans-serif;
@@ -59,9 +60,10 @@
     width: 100%;
     background: transparent;
     border: none;
+    outline: none;
     color: #222;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .space{
     margin-top: 16px;
@@ -86,9 +88,9 @@
 .pass a {
     color: white;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.pass hover a {
+.pass:hover a {
     text-decoration: underline;
 }
 .field input[type="submit"]{
@@ -99,7 +101,7 @@
     letter-spacing: 1px;
     font-weight: 600;
     cursor:pointer;
-    font-family: 'Montserrat',sans-serif;
+    font-family: "Montserrat",sans-serif;
     transform: .3s ease;
 }
 .field input[type="submit"]:hover{
@@ -108,7 +110,7 @@
 .login{
     color:white;
     margin: 20px 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 i span{
     margin-left: 8px;
