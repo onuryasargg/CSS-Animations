@@ -25,6 +25,6 @@ Light Button</br>
 Flexbox Layout</br>
 ![holy_grail](https://user-images.githubusercontent.com/61773458/180657911-ff738322-32f5-46e8-a678-170d98bb629e.png)</br>
 ----------------------------------------------------------------------------------------------------------------
-Button Border </br>
+Button Border</br>
 ![button-animation](https://user-images.githubusercontent.com/61773458/180657895-efba3432-d440-45b0-aabf-972ebac2a5c5.png)</br>
 
