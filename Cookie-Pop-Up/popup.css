@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-transform: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    transition: all .2s linear;
+}
+.cookies-box{
+    position:fixed;
+    width:350px;
+    bottom:50px;
+    right:20px;
+    z-index:1000;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 10px 15px rgba(0,0,0,.2);
+    text-align:center;
+    padding:30px;
+    display: none;
+}
+.cookies-box.active{
+    display: block;
+}
+.cookies-box .close-btn{
+    position:absolute;
+    top:8px; right:12px;
+    font-size:40px;
+    color:#999;
+    cursor:pointer;
+}
+.cookies-box .close-btn:hover{
+    color:#333;
+}
+    .cookies-box img {
+        height: 110px;
+        animation: image 10s linear infinite;
+    }
+@keyframes image{
+    0%{
+        transform:rotate(360deg);
+    }
+}
+    .cookies-box h3{
+        color:#333;
+        font-family: 'Arial', 'Open Sans', Arial, sans-serif;
+        font-size:21px;
+        padding:5px 0;
+    }
+    .cookies-box p{
+        color: #666;
+        font-size: 12px;
+        padding: 5px 0;
+        line-height: 1.8;
+    }
+    .cookies-box .kvkk{
+        color: #fbb45f;
+    }
+    .cookies-box .accept {
+        background: #fbb45f;
+        color: #fff;
+        border-radius: 5px;
+        display: block;
+        margin: 15px 0;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+.cookies-box .accept:hover{
+    opacity:.8;
+}
+.cookies-box .cancel{
+    color:#999;
+    cursor: pointer;
+}
+    .cookies-box .cancel:hover {
+        color:#fbb45f;
+    }
